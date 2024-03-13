@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: cadetblue;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 2rem;
+}
+h3{
+    float: right;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+    margin-right: 2rem;
+}
+nav ul{
+    display: flex;
+    margin: 2rem 10rem;
+}
+ul li{
+    list-style: none;
+    padding-left: 2rem;
+    font-size: larger;
+}
+nav ul li:first-child a{
+    color: rgb(76, 148, 229);
+}
+nav ul li:nth-child(2) a{
+    color: rgb(196, 206, 57);
+}
+nav ul li:last-child a{
+    color: rgb(219, 92, 13);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    border-radius: 10px;
+    width: 80%;
+    background-color: rgb(35, 75, 76);
+}
+article h2{
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+.article_content{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+    border-top: solid 2px #fff;
+    position: relative;
+}
+.content{
+    width: 50%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.content p{
+    text-align: justify;
+}
+.content p:first-child{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.content p:last-child{
+    color:rgb(196, 206, 57)
+}
+figure img{
+    width: 50rem;
+    margin-top: 1rem;
+    border: solid 1px  rgb(35, 75, 76);
+    border-radius: 10px;
+}
+footer{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: solid 3px #fff;
+    width: 80%;
+}

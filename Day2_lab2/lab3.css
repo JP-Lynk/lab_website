@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body{
+    background-image: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/416072677_357630673652103_3277323489205871164_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_ohc=aNBjP_PEPcYAX9nXh6p&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS_u7Z1C_MTJ_hSr1H2SHNd2ad0EBivT19K0tJsxR1PSg&oe=65D16054');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0f0f0;
+    font-family:  'Poppins', sans-serif;;
+}
+section{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    margin-top: 6rem;
+    width: 20rem;
+    background-color: rgb(48, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 5px #6e6767;
+    border-radius: 5px;
+    padding: 1rem;
+}
+article:nth-child(2){
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+h1{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: -0.5rem;
+}
+p{
+    text-align: center;
+    color: #bfbfbf;
+}
+ul{
+    margin-left: -3rem;
+}
+ul li{
+    color: #bfbfbf;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.price{
+    color: aqua;
+    font-size: 30px;
+    font-weight: bolder;
+}
+button{
+
+    border: none;
+    padding: 1rem 1.5rem;
+    background-color: aqua;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+button:hover{
+    color: azure;
+    background-color: #bcbaba;
+    box-shadow: aqua 1px 0px 15px;
+}
